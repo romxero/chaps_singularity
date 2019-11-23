@@ -34,4 +34,5 @@ make install
 
 %environment
   export IMAGE_NAME="chap"
+  export PATH=/usr/local/chap/bin:$PATH
 %runscript
