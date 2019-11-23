@@ -21,6 +21,8 @@ tar zxvf version_0_9_1.tar.gz
 #tar zxvf gromacs-2019.4.tar.gz
 
 
+mkdir -p /usr/share/lib/
+
 ln -s /usr/lib/x86_64-linux-gnu /usr/share/lib/x86_64-linux-gnu
 
 cd chap-version_0_9_1*
